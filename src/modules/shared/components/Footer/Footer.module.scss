@@ -70,6 +70,10 @@
     @include on-tablet {
       height: auto;
     }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__smallText {

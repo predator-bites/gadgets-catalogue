@@ -71,7 +71,7 @@ export const Cart: React.FC = () => {
         <Title rawTitle="Cart" additionalClass="cart__title" />
 
         <div className="cart__main">
-          {cart?.length !== 0 ? (
+          {cart?.length ? (
             <React.Fragment>
               <div className="cart__list">
                 {cart?.map(elem => {

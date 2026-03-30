@@ -193,6 +193,10 @@
     border-radius: 100%;
 
     @include element-border;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   // #region capacity
@@ -226,6 +230,10 @@
 
     @include element-border;
     @include body-text-font;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   // #endregion capacity
